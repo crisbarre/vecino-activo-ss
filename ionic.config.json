@@ -1,0 +1,7 @@
+{
+  "name": "vecino-activo-ss",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
