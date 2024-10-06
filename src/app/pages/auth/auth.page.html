@@ -1,0 +1,18 @@
+<app-header [title]="'Login'"></app-header>
+
+<ion-content>
+
+  <div class="d-flex-center">
+    <form [formGroup]="form" class="auth-form">
+      <app-custom-input [control]="fc.email" [label]="'Correo'" [icon]="'mail-outline'"
+        [type]="'email'"></app-custom-input>
+
+
+      <app-custom-input [control]="fc.password" [type]="'password'" [label]="'Contraseña'"
+        [icon]="'lock-closed-outline'"></app-custom-input>
+
+
+    </form>
+
+  </div>
+</ion-content>
